@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { Spinner } from '../components/ui/spinner';
 
 const ErrorFallback = () => {
   return (
@@ -28,7 +29,7 @@ export const AppProvider = ({ children }: AppProviderProps) => {
     <React.Suspense
       fallback={
         <div className='flex h-screen w-screen items-center justify-center'>
-          <p>Things are loading</p>
+          <Spinner />
         </div>
       }
     >
