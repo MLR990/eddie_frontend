@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '../components/ui/link/link';
 
 export const NotFoundRoute = () => {
   return (
