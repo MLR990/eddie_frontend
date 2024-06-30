@@ -1,4 +1,4 @@
-import { ContentLayout } from '../components/layouts/content-layout';
+import { ContentLayout } from '../../../components/layouts/content-layout';
 
 export const DashboardRoute = () => {
   return (

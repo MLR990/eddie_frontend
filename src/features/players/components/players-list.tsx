@@ -1,3 +1,3 @@
 export const PlayersList = () => {
-  return <>This is the players list page!</>;
+  return <h1>This is the players page</h1>;
 };

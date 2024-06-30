@@ -1,4 +1,4 @@
-import { Link } from '../components/ui/link/link';
+import { Link } from '../../components/ui/link/link';
 
 export const NotFoundRoute = () => {
   return (
